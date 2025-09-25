@@ -1,0 +1,40 @@
+h1{
+    color: coral;
+    margin: left 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+div.buttons{
+    width: 300px;
+    height: 200px;
+    border-style: dotted solid double;
+    border-width: thin medium thick;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #6E141E;
+    background-color: #AAA1D6;
+    border: none;
+    border-radius: 15;
+    box-shadow: 0 9px #4C2F48;
+}
+
+button:hover{
+    background-color: rgb(255, 137, 192);
+}
+
+button.active{
+    background-color: rgb(255, 137, 192);
+    box-shadow: 0 5px rgb(179, 96, 134);
+    transform : translate(4px);
+}
